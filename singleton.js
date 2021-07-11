@@ -1,7 +1,6 @@
 class Person {
-   constructor(name, age) {
+   constructor(name) {
       this.name = name
-      this.age = age
       if (typeof Person.instance === 'object') {
          return Person.instance;
       }
